@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Bible Legal</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #fbfaf4; --fg: #1b1d1a; --muted: #687064; --card: #ffffff; --border: #e3ded3; --accent: #4f6f52; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #11140f; --fg: #f2efe7; --muted: #b3b8ac; --card: #1a1d18; --border: #33382f; --accent: #a7c796; } }
+    body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: var(--bg); color: var(--fg); line-height: 1.65; }
+    main { max-width: 860px; margin: 0 auto; padding: 48px 20px 72px; }
+    h1 { font-size: 38px; line-height: 1.1; margin: 0 0 8px; }
+    .muted { color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 28px; }
+    a.card { display: block; padding: 20px; border: 1px solid var(--border); border-radius: 12px; background: var(--card); color: var(--fg); text-decoration: none; }
+    a.card:hover { border-color: var(--accent); }
+    .card strong { display: block; font-size: 18px; margin-bottom: 6px; color: var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>My Bible Legal</h1>
+    <p class="muted">Public legal pages for My Bible. Last updated April 30, 2026.</p>
+    <section class="grid">
+      <a class="card" href="./privacy.html">
+        <strong>Privacy Policy</strong>
+        How My Bible handles local data, ads, audio requests, reminders, and deletion.
+      </a>
+      <a class="card" href="./terms.html">
+        <strong>Terms of Service</strong>
+        Usage terms, content source notes, advertising, and disclaimers.
+      </a>
+      <a class="card" href="./about.html">
+        <strong>About My Bible</strong>
+        App summary, data sources, and contact information.
+      </a>
+    </section>
+  </main>
+</body>
+</html>
